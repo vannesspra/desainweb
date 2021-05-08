@@ -1,0 +1,45 @@
+.container{
+    width: 95%;
+    height: 650px;
+    background-color: turquoise;
+    display: grid;
+    grid-template-rows: 1fr 2fr 2fr;
+    grid-template-columns: 1fr 3fr;
+    grid-template-areas: 
+    'polar name'
+    'polar desc'
+    'bio rent'
+    ;
+    padding: 25px;
+    margin: auto;
+}
+.polar{
+    margin: 20px;
+    grid-area: polar;
+    background-color: red;
+}
+.name{
+    margin: 20px;
+    height: 50px;
+    grid-area: name;
+    background-color: rgba(0, 0, 255, 0.01);
+}
+.desc{
+    margin: 20px;
+    grid-area: desc;
+    background-color: burlywood;
+}
+.bio{
+    margin: 20px;
+    margin-top: 5px;
+    grid-area: bio;
+    background-color: coral;
+}
+.rent{
+    margin: auto;
+    margin-top: 5px;
+    height: 150px;
+    width: 500px;
+    grid-area: rent;
+    background-color: darkgoldenrod;
+}
