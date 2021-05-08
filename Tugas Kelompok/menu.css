@@ -1,0 +1,20 @@
+.container{
+    height: 650px;
+    width: 95%;
+    margin: auto;
+    background-color: turquoise;
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+ 
+}.item{
+    margin : 20px;
+    background-color:white;
+}
+.item p{
+    height: 75%;
+    margin: 10px;
+}
+.item a{
+    margin: 10px;
+}
