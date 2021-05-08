@@ -5,28 +5,9 @@
 body{
     font-family: 'Times New Roman', Times, serif;
 }
-button{
-    width: 10%;
-    height: 20%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: auto;
-}
 .banner-text{
     width: 100%;
     position: absolute;
-}
-.banner-text ul{
-    height: 50px;
-    float: right;
-}
-.banner-text ul li{
-    display: inline-block;
-    padding: 40px 15px;
-    text-transform: uppercase;
-    color: #fff;
-    font-size: 20px;
 }
 .banner-text h2{
     text-align: center;
@@ -34,6 +15,7 @@ button{
     font-size: 50px;
     margin-top: 20%;
 }
+
 .animation-area{
     background: linear-gradient(to left, #8942a8, #ba382f);
     width: 100%;
@@ -96,6 +78,17 @@ button{
     height: 110px;
     animation-delay: 3.5s;
 }
+.button{
+    width: 100%;
+    position: absolute;
+}
+.button a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 350px;
+}
 @keyframes animate{
     0%{
         transform: translateY(0) rotate(0deg);
@@ -106,3 +99,4 @@ button{
         opacity: 0;
     }
 }
+
